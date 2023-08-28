@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio usando tailwind CSS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        whiteColor: '#F5F5F5',
+                        primaryColor: '#2E4F4F',
+                        secondaryColor: '#0E8388'
+                    },
+                    fontFamily: {
+                        tiltNeon: ['Tilt Neon', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-tiltNeon">
+    <header class="bg-secondaryColor h-24 w-full leading-5 border-2 border-solid border-black text-whiteColor fixed px-5 flex flex-col justify-center">
+        <p>Maxsuel Fernando</p>
+        <p>maxsuel.dev@gmail.com</p>
+    </header>
+    <main>
+        <section class="intro h-screen bg-primaryColor text-whiteColor flex flex-col items-center text-center gap-4 pt-56">
+            <h1 class="text-4xl">Maxsuel Fernando</h1>
+            <div class="text-xl">
+                <h3>Desenvolvedor Front-End /</h3> 
+                <h3>Analista de Sistemas </h3>
+            </div>
+            <div class="icons-social flex w-32 gap-2">
+                <a href="https://www.facebook.com/maxsuelfernandob" target="_blank">
+                    <img src="img/redes-sociais/facebook-logo.png" alt="facebook-logo">
+                </a>
+                <a href="https://www.linkedin.com/in/maxsuelfernandob" target="_blank">
+                    <img src="img/redes-sociais/linkedin-logo.png" alt="linkedin-logo">
+                </a>
+                <a href="https://github.com/maxsueldev" target="_blank">
+                    <img src="img/redes-sociais/github-logo.png" alt="github-logo">
+                </a>
+            </div>
+            <button class="mt-6 text-xl font-bold bg-secondaryColor border-2 border-black border-solid rounded-3xl px-8 py-3">Entrar em contato</button>
+        </section>
+        <section class="sobre bg-whiteColor py-14 px-10">
+            <div>
+                <h2 class="text-3xl">Sobre</h2>
+                <h3>Conheça um pouco sobre mim</h3>
+    
+                <hr>
+                    
+                <div>
+                    <h3>Desenvolvedor Front-end |</h3> 
+                    <h3>Analista de Sistemas</h3>
+                </div>
+                <div>
+                    <p>Estudo desenvolvimento Front-End desde quando fazia faculdade    ...Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, repellat sit, a repellendus eos veritatis quo temporibus labore sequi earum eaque distinctio, et esse maxime dolore vero quae? Corporis, aspernatur!
+                    Repudiandae autem vero esse, debitis, incidunt facilis pariatur excepturi laudantium tenetur facere soluta ex numquam dicta voluptatem perferendis! Dignissimos consequatur veritatis est sequi saepe modi ea ab non eligendi sapiente.
+                    Ipsum pariatur delectus accusantium dolorum ullam optio placeat officia. Harum, cupiditate, unde quas non consectetur facere fuga ut necessitatibus quidem voluptas vel corporis aliquam! Illum repellendus quisquam explicabo vel consequuntur.
+                    Illum, dolores ipsam nobis sed voluptatibus impedit maxime ipsum voluptas officiis quis vitae voluptates deserunt excepturi? Nam tenetur veniam maxime impedit iusto eum cum ipsum fuga. Maxime labore nisi quisquam.</p>
+                    <div>
+                        <img class="maxsuelfernando" src="img/sobre/me.jpg" alt="Maxsuel Fernando">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h3>(82) 99980-8600</h3>
+                        <h3>Maceió - AL</h3>
+                    </div>    
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/libs/visibility.js"></script>
+	<script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</body>
+</html>
